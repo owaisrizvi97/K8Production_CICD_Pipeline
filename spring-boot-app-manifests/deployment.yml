@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: owaisrizvi97/k8-production-cicd-argocd:replaceImageTag
+        image: owaisrizvi97/k8-production-cicd-argocd:3
         ports:
         - containerPort: 8080
